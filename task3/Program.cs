@@ -2,14 +2,14 @@
 
 Console.WriteLine("Программа определения четности числа");
 Console.WriteLine("Введите число");
-int number = int.Parse(Console.ReadLine());
+int number = int.Parse(Console.ReadLine()); // читаем, что ввел пользователь в качестве первого числа
 
-if(number % 2 == 0)
+if(number % 2 == 0) // проверяем делится ли на 2 без остатка
 {
-    Console.WriteLine("Число четное");
+    Console.WriteLine("Результат: Число четное");
 } 
 
 else
 {
-    Console.WriteLine("Число нечетное");
+    Console.WriteLine("Результат: Число нечетное");
 }
